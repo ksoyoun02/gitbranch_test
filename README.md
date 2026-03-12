@@ -15,3 +15,10 @@ git branch -d staging   # 예시: staging 브랜치 삭제
 
 3. 원격에서도 삭제
 git push origin --delete staging
+
+# 브랜치 이동 방법
+git switch[checkout] 브랜치명
+** 이동 전 임시저장 필요 
+1. 임시저장 : git stash
+2. 다시 브랜치 불러오기 : git checkout 브랜치명
+3. 작업 복원 : git stash pop
