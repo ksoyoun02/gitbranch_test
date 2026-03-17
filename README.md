@@ -22,3 +22,6 @@ git switch[checkout] 브랜치명
 1. 임시저장 : git stash
 2. 다시 브랜치 불러오기 : git checkout 브랜치명
 3. 작업 복원 : git stash pop
+
+# 모든 브랜치 확인방법
+git branch -a
